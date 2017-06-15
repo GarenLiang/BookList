@@ -1,8 +1,8 @@
 export default function() {
   return [
-    { title: 'Javascript: The Good Parts' },
-    { title: 'Harry Potter' },
-    { title: 'The Dark Tower' },
-    { title: 'Eloquent Ruby' },
+    { title: 'Javascript: The Good Parts', img: 'http://ecx.images-amazon.com/images/I/71M32wxOOmL.jpg', des: 'Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that is more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.'},
+    { title: 'Harry Potter', img: 'http://vignette2.wikia.nocookie.net/harrypotter/images/7/7f/Hbp_15_anniversary.jpg/revision/latest?cb=20130719035646', des: 'Harry Potter and the Half-Blood Prince is the sixth and penultimate novel in the Harry Potter series, written by British author J. K. Rowling. Set during protagonist Harry Potter sixth year at Hogwarts, the novel explores the past of Harry nemesis, Lord Voldemort, and Harry preparations for the final battle against Voldemort alongside his headmaster and mentor Albus Dumbledore.'},
+    { title: 'Steven Jobs', img: 'http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501127625/steve-jobs-9781501127625_hr.jpg', des:'Walter Isaacson’s “enthralling” (The New Yorker) worldwide bestselling biography of Apple co-founder Steve Jobs—the inspiration for the movie Steve Jobs starring Michael Fassbender, Kate Winslet, Seth Rogen, and Jeff Daniels, directed by Danny Boyle with a screenplay by Aaron Sorkin.'},
+    { title: 'Eloquent Ruby', img: 'https://images-na.ssl-images-amazon.com/images/I/414gR4dCXiL._SX258_BO1,204,203,200_.jpg', des:'It’s easy to write correct Ruby code, but to gain the fluency needed to write great Ruby code, you must go beyond syntax and absorb the “Ruby way” of thinking and problem solving. In Eloquent Ruby, Russ Olsen helps you write Ruby like true Rubyists do–so you can leverage its immense, surprising power.'},
   ]
 }

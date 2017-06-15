@@ -2,22 +2,24 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectBook } from '../actions/index';
 import { bindActionCreators } from 'redux';
+
 class BookList extends Component {
     renderList() {
       return this.props.books.map((book) => {
         return (
           <li
           key={book.title}
-          onClick={() => this.props.selectBook(book) }
-          className="list-group-item">
-          {book.title}
+          onClick={() => this.props.selectBook(book) && this.props.toggleModal}
+          className="book">
+          <img src={book.img} />
+          <div id="title">{book.title}</div>
           </li>
         );
       });
     }
   render() {
     return (
-      <ul className="list-group col-md-4">
+      <ul className="book-list">
         {this.renderList()}
       </ul>
     )
